@@ -45,3 +45,22 @@ body{
     max-width: 80%;
   }
 }
+
+@media only screen and (max-width: 400px ) {
+
+  .card-title{
+    padding-left: 5.5rem;
+    padding-top:8rem;
+  }
+  .card-date{
+    padding-top: 7rem;
+  }
+
+  .card-temp{
+    padding-top: 3rem;
+  }
+
+  .card-desc{
+    padding-top: 3rem;
+  }
+}

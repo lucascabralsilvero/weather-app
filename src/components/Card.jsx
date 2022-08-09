@@ -61,7 +61,7 @@ const Card = ({loadingData, showData, weather, forecast}) => {
                                     <img src={iconUrl} alt="icon" />
                                     {weather.weather[0].description}
                                 </p>
-                                <img src="https://images.pexels.com/photos/3849167/pexels-photo-3849167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className='img-fluid rounded-start h-100' alt="city" />
+                                <img src="https://images.pexels.com/photos/3849167/pexels-photo-3849167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className='img-fluid rounded-start h-100 ' alt="city" />
                             </div>
 
                             <div className='col-md-8'>
